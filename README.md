@@ -14,9 +14,13 @@ Others, you should check [this Geany help page](http://www.geany.org/manual/curr
 
 The best way to do it is to use Geany itself:
 
-1. Use the Tools->Configuration Files->filetype_extensions.conf menu item.
+1. Use the *Tools->Configuration Files->filetype_extensions.conf* menu item.
 2. In the section `[Extensions]` add the line : `Zephir=*.zep;`
 3. Then, in the section `[Groups]`, add `;Zephir` at the end of the line starting with `Programming`
+
+### Restart Geany
+
+If you don't, you will not see the magic at work.
 
 ##What it did
 
