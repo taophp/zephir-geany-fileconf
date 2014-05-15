@@ -31,7 +31,7 @@ Currently, syntax highlighting does not work out of the box as I use the PHP par
 
 ##What it did
 
-It enable syntax highlighting in Zephir file. Differents colors are used for Zephir instructions and PHP functions
+It enable syntax highlighting (if the correct line was add see [Usage](#usage)), symbols locating (at least for classes and methods) and the ususal help provided with PHP functions in Zephir files. Differents colors are used for Zephir instructions and PHP functions.
 
 ##How it is made
 
@@ -40,3 +40,5 @@ The `filetypes.Zephir.conf` is basicaly a copy of `filetypes.cs`, provided by Ge
 I tried to use the `filetypes.php` first, but failed. Like I saw it the main failure was that standard PHP functions are not colored and that there is no help popping up as you type, so typos could occur with no clue. One partial workaround is to add standard PHP functions in secondary list of keywords. I found a [list of PHP functions](http://www.info4php.com/?req=PHP_Functions), but some are missing like `image_type_to_extension`. So if you found another missing, please [create a new issue](https://github.com/taophp/zephir-geany-fileconf/issues/new).
 
 Primary list of keywords is simply a list of Zephir instructions. Maybe improved, so do not hesitate to [create a new issue](https://github.com/taophp/zephir-geany-fileconf/issues/new).
+
+*UPDATE*: I finally found [how to enable popping help](http://lists.geany.org/pipermail/users/2014-May/009311.html)! With that, and as the Return Type Hint messing the symbols locating, I switch back `lexer_filetype` and `tag_parser` to `PHP`. The only side effect now is that highlighting requires a opening PHP tag as comment on the first line see [Usage](#usage)
