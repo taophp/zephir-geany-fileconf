@@ -22,6 +22,13 @@ The best way to do it is to use Geany itself:
 
 If you don't, you will not see the magic at work.
 
+## Usage
+Currently, syntax highlighting does not work out of the box as I use the PHP parser in Geany. You just have to add one first line at the start of all your Zephir file to make the trick :
+
+```
+//<?php
+```
+
 ##What it did
 
 It enable syntax highlighting in Zephir file. Differents colors are used for Zephir instructions and PHP functions
