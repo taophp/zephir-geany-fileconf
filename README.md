@@ -29,11 +29,11 @@ Currently, syntax highlighting does not work out of the box as I use the PHP par
 //<?php
 ```
 
-##What it did
+##What it does
 
-It enable syntax highlighting (if the correct line was add see [Usage](#usage)), symbols locating (at least for classes and methods) and the ususal help provided with PHP functions in Zephir files. Differents colors are used for Zephir instructions and PHP functions.
+It enables syntax highlighting (if the correct line was add see [Usage](#usage)), symbols locating (at least for classes and methods) and the ususal help provided with PHP functions in Zephir files. Differents colors are used for Zephir instructions and PHP functions.
 
-##How it is made
+##How it was made
 
 The `filetypes.Zephir.conf` is basicaly a copy of `filetypes.cs`, provided by Geany to parse the C# files, with some modifications.
 
@@ -41,4 +41,4 @@ I tried to use the `filetypes.php` first, but failed. Like I saw it the main fai
 
 Primary list of keywords is simply a list of Zephir instructions. Maybe improved, so do not hesitate to [create a new issue](https://github.com/taophp/zephir-geany-fileconf/issues/new).
 
-*UPDATE*: I finally found [how to enable popping help](http://lists.geany.org/pipermail/users/2014-May/009311.html)! With that, and as the Return Type Hint messing the symbols locating, I switch back `lexer_filetype` and `tag_parser` to `PHP`. The only side effect now is that highlighting requires a opening PHP tag as comment on the first line see [Usage](#usage)
+*UPDATE*: I finally found [how to enable popping help](http://lists.geany.org/pipermail/users/2014-May/009311.html)! With that, and as the [Return Type Hint](http://zephir-lang.com/oop.html#return-type-hints) messing the symbols locating, I switch back `lexer_filetype` and `tag_parser` to `PHP`. The only side effect now is that highlighting requires a opening PHP tag as comment on the first line see [Usage](#usage)
