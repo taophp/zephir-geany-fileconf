@@ -5,7 +5,7 @@ zephir-geany-fileconf
 This was a short living project as some improvements occured with the Geany software due to [some discussions on the Geany users mailing-list](http://lists.geany.org/pipermail/users/2014-May/thread.html#9310).
 As result, [b4n](https://github.com/b4n) made some changes to Geany, see his [zephir-filetype branch](https://github.com/b4n/geany/tree/zephir-filetype).
 
-Currently, there is a [pull request](https://github.com/geany/geany/pull/270) to merge this branch with the master branch of Geany.
+Currently, there is a [pull request](https://github.com/geany/geany/pull/270) pending to merge this branch with the master branch of Geany.
 
 This how to make things:
 
@@ -27,4 +27,4 @@ If you can't or don't want go through all those steps, a easy trick to deal with
 ```
 //<?
 ```
-3. Enjoy!
+Enjoy!
