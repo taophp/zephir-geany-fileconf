@@ -21,6 +21,7 @@ This how to make things:
 10. Enjoy!
 
 If you can't or don't want go through all those steps, a easy trick to deal with Zephir files is:
+
 1. set your file type as PHP in the menu _Document->Define the filetype->Script language->PHP File_
 2. start your Zephir file with a comment PHP opening tag on the first line :
 ```
