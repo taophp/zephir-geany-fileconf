@@ -27,4 +27,4 @@ If you can't or don't want go through all those steps, a easy trick to deal with
 ```
 //<?
 ```
-Enjoy!
+3. Enjoy!
